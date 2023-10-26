@@ -1,0 +1,7 @@
+{
+  "manifest_version": 3,
+  "name": "TR-Eng Knowledge Base",
+  "version": "1.0.0",
+  "action": { "default_popup": "index.html" },
+  "host_permissions": ["https://tr-eng.vercel.app/*"]
+}

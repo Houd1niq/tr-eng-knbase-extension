@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Comfortaa;
+  font-weight: 400;
+  src: url(../shared/assets/fonts/Comfortaa-Regular.woff2) format("woff2"),
+    url(../shared/assets/fonts/Comfortaa-Regular.woff) format("woff"),
+    url(../shared/assets/fonts/Comfortaa-Regular.ttf) format("ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: Comfortaa;
+  font-weight: 700;
+  src: url(../shared/assets/fonts/Comfortaa-Bold.woff2) format("woff2"),
+    url(../shared/assets/fonts/Comfortaa-Bold.woff) format("woff"),
+    url(../shared/assets/fonts/Comfortaa-Bold.ttf) format("ttf");
+  font-display: block;
+}
+
+body {
+  min-width: 300px;
+  font-family: "Comfortaa", "Nunito", serif;
+}
+
+#root {
+  padding: 0;
+}
